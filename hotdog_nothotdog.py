@@ -32,7 +32,7 @@ transform = transforms.Compose([transforms.Resize(32),
                                 transforms.Normalize((0.5, 0.5, 0.5),(0.5, 0.5, 0.5)),
                                 ])
 
-#the data set used can be from https://www.kaggle.com/dansbecker/hot-dog-not-hot-dog/data
+#the dataset used can be from https://www.kaggle.com/dansbecker/hot-dog-not-hot-dog/data
 trainset = torchvision.datasets.ImageFolder(root='/content/gdrive/My Drive/train', transform=transform)
 
 #checking the data
